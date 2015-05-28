@@ -1,0 +1,46 @@
+body{
+  background-color:#65dd9d;
+}
+
+.Single{
+  border-radius: 5px;
+  height:25px;
+  width:200px;
+  border: 1px solid #000000;
+}
+
+
+.Sing{
+  border-radius: 5px;
+  height:25px;
+  width:200px;
+  border: 1px solid #000000;
+  margin-left:500px;
+
+}
+
+
+#inp5{
+  position:fixed;
+  border-radius: 5px;
+  height:50px;
+  width:200px;
+  border: 1px solid #000000;
+  left: 800px;
+  top: 300px;
+}
+
+#butn1 img{
+  position:fixed;
+  height:50px;
+  width:50px;
+  border-radius: 100%;
+  left:300px;
+  top:150px;
+}
+
+
+#popUp form{
+  height:300px;
+  width:500px
+}

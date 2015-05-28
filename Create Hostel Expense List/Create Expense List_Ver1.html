@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title> Hostel Expense List</title>
+  <script type="text/javascript" src="myJava.js"></script>
+  <link type="text/css" rel="stylesheet" href="Visual.css" />
+  <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+
+<body>
+<div class="jumbotron">
+<h2> Enter Expense Details </h2>
+</div>
+
+<input type="date" class="Single" id="inp1" placeholder="Enter Date"></input> <br><br>
+<!--<input type="text" class="Single" id="inp2" name="PrabName" placeholder="First Name"></input><br><br> -->
+
+<select class="Single" name="prabhus" id="inp2">
+  <option value = "Biren">Biren</option>
+  <option value = "Sanjay">Sanjay</option>
+  <option value = "Sharat">Sharat</option>
+  <option value = "Vivek" selected>Vivek</option>
+  <option value = "Rakesh">Rakesh</option>
+</select> <br><br>
+
+
+<input type="number" class="Single" id="inp3" name="ExpAmt" placeholder="Amount(INR)"></input><br><br>
+
+<input type="text" class="Single" id="inp4"  placeholder="Note"></input><br><br>
+
+<input type="button"  value="Add Expense"  onclick="putDownDet()" class="Single"></input><br><br>
+
+<div class="row">
+   <div class="col-md-6">
+		<input type="button"  value="Get Biren Expense"  class="Sing" onclick="getBirExp()"></input><br><br>
+		<input type="button"  value="Get Rakesh Expense"   class="Sing" onclick="getRakExp()"></input><br><br>
+		<input type="button"  value="Get Sharat Expense" class="Sing" onclick="getSharExp()"></input><br><br>
+		<input type="button"  value="Get Sanjay Expense"   class="Sing" onclick="getSanExp()"></input><br><br>
+		<input type="button"  value="Get Saran Expense"   class="Sing" onclick="getSarExp()"></input><br><br>
+		<input type="button"  value="Get Vivek Expense"   class="Sing" onclick="getVivExp()"></input><br><br>
+	</div>
+</div>
+
+
+
+<div class="form-group">
+<form role="form">
+<input type="text" placeholder="Name" name="nameOfPrabhu"> </input><br>
+<input type="text" placeholder="Mobile No" name="mobOfPrabhu"> </input>
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+<div id="inp5"></div>
+
+<div id="butn1"> <img src="addButton.png" onclick="getPopUp()"> </div>
+
+</body>
+</html>
