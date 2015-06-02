@@ -88,7 +88,7 @@ function getVivExp(){
 
 function getPopUp(){
   $('#butn1').click(function(){
-     $('.row').css("background-color","red");
+     $('#butn1').toggleClass('Sing');
 
   });
 
