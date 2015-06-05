@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head containing CSS, JS plugins START-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="jquery-1.11.3.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+<link type="text/css" href="Visual.css" rel="stylesheet">
+<link rel="stylesheet" href="jquery-ui.css">
+<link rel="stylesheet" href="jquery-ui.min.css">
+<script src="bootstrap.min.js"></script>
+<script type="text/javascript" src="myJava.js"></script>
+<script src="jquery-ui.js"></script>
+<script src="jquery-ui.min.js"></script>
+</head>
+<!-- Head containing CSS, JS plugins END-->
+
+
+<!--Body START-->
+  <body>
+   <div class="container">
+     <button class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModal"> Add Person </button>
+
+        <div id="myModal" class="modal fade" >
+          <div class="modal-dialog modal-sm">
+             <div class="modal-content">
+
+       <div class="modal-header">
+          <h3 class="modal-header"> Add Person </h3>
+       </div>
+
+
+<form class="form-horizontal" name="inpPrabhuDet">
+<div class="modal-body">
+
+  <input type="text" class="form-control" placeholder="Name" id="inpName"></input><br>
+  <input type="number"  class="form-control" placeholder="Mobile Number" id="inpMobno" ></input><br>
+
+  <div class="col-md-2" >
+    <button id="btnok"  class="btn btn-success" data-dismiss="modal" onclick="addPrabhu()">OK</button>
+  </div>
+  <div class="col-md-2" >
+    <button id="btncan"  class="btn btn-default" >Cancel</button>
+  </div>
+
+
+</div>
+</form>
+
+   </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+  <!--Body END-->
+  </body>
+
+
+  </html>

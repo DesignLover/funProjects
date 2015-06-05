@@ -1,0 +1,40 @@
+div.btn1 {
+    height:100px;
+    width:100px;
+    color:red;
+    background-color:red;
+}
+
+
+div.form1{
+  border:1px solid black;
+}
+
+#btnok{
+  margin-right:10px;
+
+}
+
+#btncan{
+  margin-left:30px;
+}
+
+
+.modal-header{
+  border-bottom:0px dashed blue;
+  padding-top:0px;
+  padding-bottom:0px;
+  margin-bottom:0px;
+  font-family:Garamond;
+  font-weight:100;
+}
+
+.modal-body{
+  padding-bottom:50px;
+}
+
+
+.form-control{
+  font-family: Garamond;
+  font-size: 17px;
+}
